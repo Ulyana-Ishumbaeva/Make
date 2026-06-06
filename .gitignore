@@ -1,31 +1,8 @@
-# Virtual environments
+# global ignores for monorepo
 .venv/
-venv/
-
-# Python cache
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
 __pycache__/
 *.py[cod]
-
-# Тестирование и покрытие ← ДОБАВЛЯЕМ
-.pytest_cache/
-.coverage
-htmlcov/
-.tox/
-.nox/
-
-# Type checking
-.mypy_cache/
-
-# IDE
-.idea/
-.vscode/
-
-# OS
-.DS_Store
-
-.venv/
-__pycache__/
-.pytest_cache/
-.mypy_cache/
-.coverage
-htmlcov/
