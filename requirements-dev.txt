@@ -1,0 +1,18 @@
+-r requirements.txt
+
+# lint/format
+black>=24.0.0
+isort>=5.13.0
+flake8>=7.0.0
+
+# typing
+mypy>=1.10.0
+types-requests>=2.31.0
+
+# tests
+pytest>=8.0.0
+pytest-cov>=5.0.0
+responses>=0.25.0
+
+# requirements/imports check
+pip-check-reqs>=2.5.3
